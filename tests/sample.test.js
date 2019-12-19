@@ -11,3 +11,9 @@ describe('Example of a false passing test', () => {
         ok (false === false)
     })
 })
+
+describe('Force failed in teste run', () => {
+    it('no pass', () => {
+        ok(false)
+    })
+})
