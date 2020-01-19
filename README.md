@@ -5,7 +5,7 @@ This simple api is responsible for providing resources for the todevs front-end 
 - Introduce abstraction layer to prevent handlers from knowing about http status codes.
 - Introduce validators to allow for input validation and other status codes being responded without having to determine the status in the handlers.
 - Implement repository class so that it connects to the MongoDB and not the mock-dataset file.
-- Implement unit tests for every class
+- Implement unit tests for every class.
 
 ## Requirements for the MVP:
 - Authentication Module - Signup and Signin functionalities (Using JWT)
